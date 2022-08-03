@@ -51,6 +51,7 @@ namespace StudyBlog.Controllers
 
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CreatePostViewModel model)
         {
             if (ModelState.IsValid)
