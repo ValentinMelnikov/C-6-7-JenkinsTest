@@ -33,6 +33,7 @@ namespace StudyBlog.Services
                     await userManager.AddToRoleAsync(admin, "admin");
 
             }
+            sdfsdfsdfsd
         }
     }
 }
